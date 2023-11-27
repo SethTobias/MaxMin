@@ -1,0 +1,52 @@
+/* Custom Properties */
+:root {
+  --text: #022222;
+  --background: #f0fefe;
+  --primary: #72f8f8;
+  --secondary: #c5fcfc;
+  --accent: #0ce9e9;
+}
+
+* {
+  color: var(--text);
+  text-align: center;
+  background-color: var(--primary);
+}
+
+.mainDiv {
+  margin: auto;
+  border: var(--text) 10px outset;
+  font-size: 2rem;
+}
+
+.buttonDiv {
+  margin: auto;
+  padding: 1.2rem;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+.minMaxContainer {
+  display: flex;
+  height: 4rem;
+  width: 28rem;
+  margin: auto;
+}
+
+.minValue {
+  height: 1.2rem;
+  width: 14rem;
+  text-align: left;
+}
+
+.maxValue {
+  height: 1.2rem;
+  width: 14rem;
+  text-align: right;
+}
+
+input {
+  width: 40rem;
+}
